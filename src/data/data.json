@@ -1,0 +1,21 @@
+[
+    {
+    "id":1,
+    "titulo":"Best-commerce",
+    "tecnologias": ["React", "tailwind css", "React-Router", "Firebase", "Luxon", "React-Icons", "React-Toastify"],
+    "descripcion": "E-commerce de ropa deportiva realizado con React JS para el curso de React js de CoderHouse",
+    "repositorio": "https://github.com/alexis-orphant/ecommerce-ch",
+    "deploy": "https://best-commerce-ch.netlify.app/",
+    "imagen": "https://user-images.githubusercontent.com/104010103/203831615-f3dd6458-d4d6-4155-a812-7ba198be039c.gif"
+},
+{
+    "id": 2,
+    "titulo": "LeBron James page",
+    "tecnologias": ["HTML 5", "CSS 3", "SASS", "Bootstrap"
+    ],
+    "descripcion": "Primer página web. Realizada para el curso de desarrollo web de CoderHouse",
+    "repositorio": "https://github.com/alexis-orphant/pf-lebron",
+    "deploy": "https://alexis-orphant.github.io/pf-lebron/",
+    "imagen": "https://alexis-orphant.github.io/Portfolio/assets/lebronPage.cd5d1263.jpg"
+}
+]
