@@ -17,8 +17,8 @@ const ProyectModal = ({ setModal, modalData }) => {
             onClick={() => setModal(false)}
             className="absolute w-screen h-screen top-0 left-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[1.5px] flex justify-center items-center dark:bg-[rgba(255,255,255,0.3)]"
         >
-            <div className="h-auto max-w-[300px] md:max-w-[500px] bg-white mx-auto p-2 rounded-xl dark:text-white dark:bg-[#000015] shadow-[0_8px_40px_7px] shadow-black">
-                <div className="flex justify-between p-2">
+            <div className="h-auto max-w-[300px] md:max-w-[500px] bg-white mx-auto px-8 rounded-xl dark:text-white dark:bg-[#000015] shadow-[0_8px_40px_7px] shadow-black">
+                <div className="flex justify-between py-2">
                     <h3 className="font-roboto text-xl md:text-2xl">
                         {titulo}
                     </h3>
@@ -30,14 +30,14 @@ const ProyectModal = ({ setModal, modalData }) => {
                 </div>
                 <img src={imagen} alt="" className="mx-auto" />
                 <h3 className="font-roboto text-lg md:text-xl">Tecnologías:</h3>
-                <div className="flex justify-around">
+                <div className="grid grid-cols-2 md:grid-cols-3">
                     {tecnologias.map((tec) => {
                         return (
                             <p
                                 key={tec}
-                                className="font-roboto italic text-sm md:text-lg"
+                                className="font-roboto italic text-sm md:text-lg text-left pl-4"
                             >
-                                {tec}
+                                - {tec}
                             </p>
                         );
                     })}

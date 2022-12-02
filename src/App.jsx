@@ -25,6 +25,8 @@ function App() {
                 <Route path="/proyects" element={<ProyectsContainer />} />
 
                 <Route path="/contact" element={<Contact />} />
+
+                <Route path="/*" element={<Home />} />
             </Routes>
         </BrowserRouter>
     );

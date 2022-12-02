@@ -7,7 +7,7 @@ const About = () => {
                 <h2 className="font-roboto text-2xl lg:text-4xl italic py-4">
                     Educación / Cursos
                 </h2>
-                <ul className="lg:pt-4">
+                <ul className="py-4">
                     <li className="grid md:grid-cols-2 items-center border-l-2 lg:border-l-4 border-pink-600 text-center">
                         <div className="text-lg lg:text-2xl font-roboto font-semibold lg:py-2">
                             <p>Bachiller en Ciencias Sociales</p>
