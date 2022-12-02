@@ -1,6 +1,15 @@
 [
     {
-    "id":1,
+        "id": 1,
+        "titulo": "Personal Portfolio",
+        "tecnologias": ["React", "tailwind css", "React-Router", "vite"],
+        "descripcion": "Portfolio personal, donde cuento sobre mi, mis cursos, certificaciones, estudios, habilidades y experiecia laboral",
+        "repositorio": "https://github.com/alexis-orphant/portfolio2",
+        "deploy": "",
+        "imagen": "https://raw.githubusercontent.com/alexis-orphant/portfolio2/main/src/assets/port.gif"
+    },
+    {
+    "id":2,
     "titulo":"Best-commerce",
     "tecnologias": ["React", "tailwind css", "React-Router", "Firebase", "Luxon", "React-Icons", "React-Toastify"],
     "descripcion": "E-commerce de ropa deportiva realizado con React JS para el curso de React js de CoderHouse",
@@ -9,7 +18,7 @@
     "imagen": "https://user-images.githubusercontent.com/104010103/203831615-f3dd6458-d4d6-4155-a812-7ba198be039c.gif"
 },
 {
-    "id": 2,
+    "id": 3,
     "titulo": "LeBron James page",
     "tecnologias": ["HTML 5", "CSS 3", "SASS", "Bootstrap"
     ],

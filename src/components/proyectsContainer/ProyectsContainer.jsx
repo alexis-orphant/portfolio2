@@ -12,7 +12,7 @@ const ProyectsContainer = () => {
 
     return (
         <>
-            <section className="w-screen h-screen bg-white dark:text-white dark:bg-[#000015]">
+            <section className="w-screen h-screen bg-white dark:text-white dark:bg-[#000015] overflow-x-hidden">
                 <h2 className="ml-48 md:ml-64 text-4xl italic font-roboto py-2">
                     Proyectos
                 </h2>

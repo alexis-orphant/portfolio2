@@ -3,7 +3,7 @@ import foto from "../assets/foto.jpg";
 
 const Home = () => {
     return (
-        <section className="w-screen h-screen pt-8 bg-white lg:flex lg:justify-around lg:items-center dark:text-white dark:bg-[#000015]">
+        <section className="w-screen h-screen pt-8 bg-white lg:flex lg:justify-around lg:items-center dark:text-white dark:bg-[#000015] overflow-x-hidden">
             <main className="ml-48 md:ml-64">
                 <p className="font-raleway text-lg lg:text-xl font-semibold">Hola, soy</p>
                 <h1 className="font-raleway italic font-semibold text-2xl lg:text-6xl py-2">

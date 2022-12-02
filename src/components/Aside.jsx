@@ -12,7 +12,7 @@ import { IoMdSchool } from "react-icons/io";
 
 const Aside = () => {
     return (
-        <aside className="text-black h-screen w-32 md:w-52 bg-slate-100 absolute  dark:text-neutral-300 dark:bg-slate-800">
+        <aside className="text-black h-screen w-32 md:w-52 bg-slate-100 fixed  dark:text-neutral-300 dark:bg-slate-800">
             <Link to="/">
                 <h2 className="text-center font-cursive text-2xl font-bold py-4">
                     A.O
@@ -37,7 +37,7 @@ const Aside = () => {
                     >
                         <IoMdSchool size={30} />
                         <h4 className="pl-2 font-roboto text-sm md:text-xl font-semibold">
-                            Edcucación
+                            Educación
                         </h4>
                     </NavLink>
                 </li>

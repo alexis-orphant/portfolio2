@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <section className="w-screen h-screen bg-white dark:text-white dark:bg-[#000015]">
+        <section className="w-screen h-screen bg-white dark:text-white dark:bg-[#000015] overflow-x-hidden">
             <main className="ml-48 md:ml-64">
                 <h2 className="font-roboto text-2xl lg:text-4xl italic py-4">
                     Educación / Cursos
