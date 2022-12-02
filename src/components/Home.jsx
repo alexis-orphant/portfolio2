@@ -5,7 +5,9 @@ const Home = () => {
     return (
         <section className="w-screen h-screen pt-8 bg-white lg:flex lg:justify-around lg:items-center dark:text-white dark:bg-[#000015] overflow-x-hidden">
             <main className="ml-48 md:ml-64">
-                <p className="font-raleway text-lg lg:text-xl font-semibold">Hola, soy</p>
+                <p className="font-raleway text-lg lg:text-xl font-semibold">
+                    Hola, soy
+                </p>
                 <h1 className="font-raleway italic font-semibold text-2xl lg:text-6xl py-2">
                     Alexis Orphant
                 </h1>
@@ -26,13 +28,17 @@ const Home = () => {
                     interpersonales
                 </p>
                 <div className="py-4 lg:mt-6">
-                    <button className="font-roboto text-lg lg:text-2xl bg-neutral-200 p-2 rounded-xl shadow-xl shadow-black hover:shadow-2xl hover:shadow-black hover:bg-black hover:text-white hover:scale-125 dark:bg-slate-900 dark:hover:bg-white dark:hover:text-black dark:shadow-white/25 dark:hover:shadow-white duration-200">
+                    <button className="fonto-roboto text-xl font-semibold rounded-lg border-2 border-[#000015] dark:border-white hover:bg-slate-900 hover:text-white dark:hover:bg-slate-600 dark:hover:text-black hover:rounded-xl p-3 mx-auto flex items-center duration-200">
                         Ver CV
                     </button>
                 </div>
             </main>
             <figure className="mx-auto w-44 lg:w-64 xl:w-80">
-                <img src={foto} alt="Alexis Orphant" className="rounded-full ml-16 md:ml-0" />
+                <img
+                    src={foto}
+                    alt="Alexis Orphant"
+                    className="rounded-full ml-16 md:ml-0"
+                />
             </figure>
         </section>
     );

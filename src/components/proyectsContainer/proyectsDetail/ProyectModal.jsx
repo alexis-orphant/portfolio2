@@ -51,16 +51,14 @@ const ProyectModal = ({ setModal, modalData }) => {
                     <a
                         href={deploy}
                         target="_blank"
-                        className="text-xl bg-slate-700 text-white dark:bg-slate-400 dark:text-black p-2 rounded-lg hover:bg-zinc-700 dark:hover:bg-zinc-300 hover:shadow-xl hover:shadow-slate-900 
-                                hover:rounded-xl duration-200 "
+                        className="fonto-roboto text-xl font-semibold rounded-lg border-2 border-[#000015] dark:border-white hover:bg-slate-900 hover:text-white dark:hover:bg-slate-600 dark:hover:text-black hover:rounded-xl p-3 mx-auto flex items-center duration-200"
                     >
                         Deploy
                     </a>
                     <a
                         href={repositorio}
                         target="_blank"
-                        className="text-xl bg-slate-700 text-white dark:bg-slate-400 dark:text-black p-2 rounded-lg hover:bg-zinc-700 dark:hover:bg-zinc-300 hover:shadow-xl hover:shadow-slate-900 
-                                hover:rounded-xl duration-200 "
+                        className="fonto-roboto text-xl font-semibold rounded-lg border-2 border-[#000015] dark:border-white hover:bg-slate-900 hover:text-white dark:hover:bg-slate-600 dark:hover:text-black hover:rounded-xl p-3 mx-auto flex items-center duration-200"
                     >
                         Repositorio
                     </a>
