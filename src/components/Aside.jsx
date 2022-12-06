@@ -9,6 +9,7 @@ import {
 import { BsFillTelephoneFill, BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoMdSchool } from "react-icons/io";
+import ThemeSwitch from "./ThemeSwitch";
 
 const Aside = () => {
     return (
@@ -18,7 +19,8 @@ const Aside = () => {
                     A.O
                 </h2>
             </Link>
-            <ul className="pt-16">
+            <ThemeSwitch/>
+            <ul className="pt-10">
                 <li>
                     <NavLink
                         to="/"

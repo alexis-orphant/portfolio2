@@ -5,7 +5,7 @@
         "tecnologias": ["React", "tailwind css", "React-Router", "Vite"],
         "descripcion": "Portfolio personal, donde cuento sobre mi, mis cursos, certificaciones, estudios, habilidades y experiecia laboral",
         "repositorio": "https://github.com/alexis-orphant/portfolio2",
-        "deploy": "",
+        "deploy": "https://alexisorphant.netlify.app/",
         "imagen": "https://raw.githubusercontent.com/alexis-orphant/portfolio2/main/src/assets/port.gif"
     },
     {

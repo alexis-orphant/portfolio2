@@ -17,18 +17,19 @@ const ThemeSwitch = () => {
     };
 
     return (
-        <div className="flex justify-end pr-5 pt-5 absolute top-0 right-0 ">
+        <div className="">
+            <h3 className="text-center font-roboto font-semibold text-xl">{theme === "dark" ? "Tema claro" : "Tema oscuro"}</h3>
             {theme === "dark" ? (
                 <FaSun
                     onClick={handleSwitch}
                     size={32}
-                    className="text-yellow-400 cursor-pointer"
+                    className="text-yellow-400 cursor-pointer mx-auto"
                 />
             ) : (
                 <FaMoon
                     onClick={handleSwitch}
                     size={32}
-                    className="text-black"
+                    className="text-black mx-auto"
                 />
             )}
         </div>

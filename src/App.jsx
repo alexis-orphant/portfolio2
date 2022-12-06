@@ -11,7 +11,6 @@ import ThemeSwitch from "./components/ThemeSwitch";
 function App() {
     return (
         <BrowserRouter>
-            <ThemeSwitch />
 
             <Aside />
 
