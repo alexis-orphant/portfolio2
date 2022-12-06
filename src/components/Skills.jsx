@@ -12,7 +12,7 @@ import {DiGit} from "react-icons/di"
 const Skills = () => {
     return (
         <section className="w-screen h-screen bg-white dark:text-white dark:bg-[#000015] overflow-x-hidden">
-            <main className="ml-48 md:ml-64 py-4">
+            <main className="ml-40 md:ml-64 py-4">
                 <h2 className="font-roboto italic text-2xl lg:text-4xl pt-12 lg:pt-4">
                     Habilidades Técnicas
                 </h2>
