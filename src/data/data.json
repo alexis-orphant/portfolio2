@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Personal Portfolio",
-        "tecnologias": ["React", "tailwind css", "React-Router", "vite"],
+        "tecnologias": ["React", "tailwind css", "React-Router", "Vite"],
         "descripcion": "Portfolio personal, donde cuento sobre mi, mis cursos, certificaciones, estudios, habilidades y experiecia laboral",
         "repositorio": "https://github.com/alexis-orphant/portfolio2",
         "deploy": "",
